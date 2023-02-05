@@ -185,5 +185,5 @@ def checkFull(board):
       if x not in ['1','2','3','4','5','6','7','8','9']:
         check = False
         counter+=1
-
+        
   return (check,counter)
